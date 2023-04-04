@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_group"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Drafts" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Send" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Trash" />
+    </group>
+    <item android:title="Support" >
+        <menu >
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>
